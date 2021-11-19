@@ -12,9 +12,13 @@ Splitter is inspired by [Split.js](https://split.js.org/) and written as 100% fu
 [CodeSandbox project](https://codesandbox.io/s/devbookhqspliiter-example-l23s4)
 
 ## Installing
-```
+
+### npm
+```bash
 npm install @devbookhq/splitter
-# or
+```
+### yarn
+```bash
 yarn add @devbookhq/splitter
 ```
 
@@ -27,26 +31,15 @@ import Splitter, { SplitDirection } from '@devbookhq/splitter'
 function MyComponent() {
   return (
     <Splitter>
-      <div>Tile 1</div>
-      <div>Tile 2</div>
+      <div className="tile">Tile 1</div>
+      <div className="tile">Tile 2</div>
     </Splitter>
   );
 }
+
+export default MyComponent;
 ```
 
-### Vertical split
-```tsx
-import Splitter, { SplitDirection } from '@devbookhq/splitter'
-
-function MyComponent() {
-  return (
-    <Splitter direction={SplitDirection.Vertical}>
-      <div>Tile 1</div>
-      <div>Tile 2</div>
-    </Splitter>
-  );
-}
-```
 
 ### Nested split
 ```tsx
@@ -66,6 +59,8 @@ function MyComponent() {
     </Splitter>
   );
 }
+
+export default MyComponent;
 ```
 
 ### Get sizes of tiles
@@ -91,6 +86,8 @@ function MyComponent() {
     </Splitter>
   );
 }
+
+export default MyComponent;
 ```
 
 To see more examples check out the [examples](#Example) section.
