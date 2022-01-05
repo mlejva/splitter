@@ -2,6 +2,7 @@
 
 Splitter is a React component that allows you to split views into resizable panels. Similar to tabs in Visual Studio Code, for example. It's used in [Devbook](https://usedevbook.com) - A Search Engine for Developers.
 Here's a gif of what you can build with Splitter:
+
 ![](example.gif)
 
 Splitter is inspired by [Split.js](https://split.js.org/) and written as 100% functional component:
@@ -34,24 +35,11 @@ yarn add @devbookhq/splitter
 
 ### Horizontal split
 
-```tsx {"cell-id":"hejNBw","running-env-id":"877a4e26afd0","running-env-local-id":"zqnjCN","template-id":"nextjs-v11-components","cell-name":"Untitled-hls"}
-import Splitter, { SplitDirection } from '@devbookhq/splitter'
-
-function MyComponent() {
-  return (
-    <Splitter>
-      <div className="tile">Tile 1</div>
-      <div className="tile">Tile 2</div>
-    </Splitter>
-  );
-}
-
-export default MyComponent;
-```
+TODO
 
 ### Vertical split
 
-```tsx {"cell-id":"PqY0M7","running-env-id":"877a4e26afd0","running-env-local-id":"zqnjCN","template-id":"nextjs-v11-components","cell-name":"Untitled-Xrr"}
+```tsx {"cell-id":"PqY0M7","document-env-id":"1ad1629e","template-id":"nextjs-v11-components","cell-name":"Untitled-Xrr"}
 import Splitter, { SplitDirection } from '@devbookhq/splitter'
 
 function MyComponent() {
@@ -70,7 +58,7 @@ export default MyComponent;
 
 ### Nested split
 
-```tsx {"cell-id":"Wu9K0r","running-env-id":"877a4e26afd0","running-env-local-id":"zqnjCN","template-id":"nextjs-v11-components","cell-name":"Untitled-SxS"}
+```tsx {"cell-id":"Wu9K0r","document-env-id":"1ad1629e","template-id":"nextjs-v11-components","cell-name":"Untitled-SxS"}
 import Splitter, { SplitDirection } from '@devbookhq/splitter'
 
 function MyComponent() {
@@ -93,7 +81,7 @@ export default MyComponent;
 
 ### Get sizes of tiles
 
-```tsx {"cell-id":"h2cYey","running-env-id":"877a4e26afd0","running-env-local-id":"zqnjCN","template-id":"nextjs-v11-components","cell-name":"Untitled-XF6"}
+```tsx {"cell-id":"h2cYey","document-env-id":"1ad1629e","template-id":"nextjs-v11-components","cell-name":"Untitled-XF6"}
 import Splitter, { SplitDirection } from '@devbookhq/splitter'
 
 function MyComponent() {
