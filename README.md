@@ -35,7 +35,22 @@ yarn add @devbookhq/splitter
 
 ### Horizontal split
 
-TODO
+```tsx {"cell-id":"tur07dhm","document-env-id":"1ad1629e","template-id":"nextjs-v11-components","cell-name":"Untitled"}
+import Splitter, { SplitDirection } from '@devbookhq/splitter'
+
+function MyComponent() {
+  return (
+    <Splitter>
+      <div className="tile">Tile 1</div>
+      <div className="tile">Tile 2</div>
+    </Splitter>
+  );
+}
+
+export default MyComponent;
+```
+
+<meta cell-type="iframe" src="https://3000-ckw6nuq7n13799408ijc1xubwyu_1ad1629e-7d7e9e6ec7c5.o.usedevbook.com/Untitled">
 
 ### Vertical split
 
